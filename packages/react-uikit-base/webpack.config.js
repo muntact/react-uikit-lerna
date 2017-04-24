@@ -1,6 +1,4 @@
 'use strict';
-var webpack = require('webpack');
-
 const filename = 'uikit.jsx';
 
 

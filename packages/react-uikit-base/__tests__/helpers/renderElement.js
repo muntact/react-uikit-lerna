@@ -1,8 +1,6 @@
 'use strict';
 
-import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-import { createRenderer } from 'react-addons-test-utils';
 import dom from 'cheerio';
 
 
