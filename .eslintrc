@@ -1,4 +1,6 @@
 {
+  "parser": "babel-eslint",
+
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -8,7 +10,7 @@
   "env": {
     "browser": true,
     "node": true,
-    "mocha": true,
+    "mocha": true
   },
 
   "ecmaFeatures": {
@@ -16,7 +18,9 @@
   },
 
   "globals": {
-    "process.env": true
+    "process.env": true,
+    "React": true,
+    "ReactDOM": true
   },
 
   "plugins": [
@@ -26,15 +30,18 @@
 
   "extends": [
     "standard",
+    "eslint:recommended",
     "plugin:react/recommended"
   ],
-  
+
   "rules": {
     "key-spacing": 0,
     "no-trailing-spaces": 0,
     "no-multiple-empty-lines": [2, {"max": 2}],
     "padded-blocks": 0,
     "semi": [2, "always"],
+    "arrow-parens": 0,
+
     "smells/no-switch": 1,
     "smells/no-complex-switch-case": 1,
     "smells/no-setinterval": 1,
