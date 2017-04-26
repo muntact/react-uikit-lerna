@@ -2,10 +2,15 @@
   "name": "react-uikit-all",
   "version": "1.0.0",
   "description": "Monorepo to contain all of otissv's react-uikit modules and be more like uikit core...",
-  "keywords": ["react", "uikit", "lerna"],
+  "keywords": [
+    "react",
+    "uikit",
+    "lerna"
+  ],
   "author": "murrayl",
   "license": "MIT",
   "devDependencies": {
+    "glob": "^7.1.1",
     "lerna": "2.0.0-beta.38"
   }
 }
